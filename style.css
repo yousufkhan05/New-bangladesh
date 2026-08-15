@@ -56,6 +56,12 @@ h4 {
   color: #0e0e0e;
 }
 
+p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
 nav{
    margin-top: 20px; 
    margin-bottom: 20px;
@@ -95,4 +101,61 @@ color: white;
 .hero img{
 width: 100%;
 height: auto;
+}
+
+/* Pollars of Bangladesh 2.0 */
+.pillars{
+  margin-top: 80px;
+}
+
+.pillars-cards{
+  margin-top: 30px;
+  gap: 24px;
+}
+
+.pillars-cards img{
+  height: 64px;
+  width: 66px;
+}
+
+.pillars-cards h3{
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.pillars-card{
+  padding: 20px;
+  border-radius: 24px;
+  background-color: #ffffff;
+
+}
+
+/* The vision of future */
+.vision{
+  margin-top: 80px;
+}
+
+.vision-cards{
+  margin-top: 30px;
+  gap: 24px;
+}
+
+.vision-cards img{
+  height: 64px;
+  width: 66px;
+}
+
+.vision-cards h3{
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.vision-card{
+  padding: 20px;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+
+.vision button{
+  margin-top: 30px;
 }
