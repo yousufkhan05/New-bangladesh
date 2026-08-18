@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -31,17 +31,16 @@ body {
   border: none;
   text-align: center;
 }
-
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-h2 {
+.title {
   font-size: 35px;
   font-weight: bold;
   color: #0e0e0e;
+  margin-bottom: 24px;
 }
 
 h3 {
@@ -49,117 +48,102 @@ h3 {
   font-weight: bold;
   color: #0e0e0e;
 }
-
 h4 {
   font-size: 16px;
   font-weight: 600;
   color: #0e0e0e;
 }
-
-p{
+p {
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
 }
 
-nav{
-   margin-top: 20px; 
-   margin-bottom: 20px;
+/* Hero section */
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.nav-btn{
-    background-color: transparent;
-    border: 1px solid #006A50;
-    color: #006A50;
+.logo {
+  font-size: 30px;
 }
-
-.hero{
-    background-color: #C6E4D6;
-    padding:80px 60px ;
-    border-radius: 24px;
-    text-align: left;
-    gap: 60px;
-    margin-top: 30px;
+.nav-btn {
+  background-color: transparent;
+  border: 1px solid #006a50;
+  color: #006a50;
 }
-
-.hero h3{
-font-size: 20px;
+.hero {
+  background-color: #c6e4d6;
+  padding: 80px 60px;
+  border-radius: 24px;
+  text-align: left;
+  gap: 60px;
+  margin-top: 30px;
 }
-
-.hero h1{
-font-size: 45px;
-font-weight: 700;
-color: #0E0E0E;
-margin-top: 16px;
-margin-bottom: 24px;
+.hero h3 {
+  font-size: 20px;
 }
-
-.hero button{
-background-color: #006A50;
-color: white;
+.hero h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
-
-.hero img{
-width: 100%;
-height: auto;
+.hero button {
+  background-color: #006a50;
+  color: white;
+}
+.hero img {
+  width: 100%;
+  height: auto;
 }
 
 /* Pollars of Bangladesh 2.0 */
-.pillars{
+.pillars {
   margin-top: 80px;
 }
-
-.pillars-cards{
+.pillars-cards {
   margin-top: 30px;
   gap: 24px;
 }
-
-.pillars-cards img{
+.pillars-cards img {
   height: 64px;
   width: 66px;
 }
-
-.pillars-cards h3{
+.pillars-cards h3 {
   margin-top: 20px;
   margin-bottom: 12px;
 }
-
-.pillars-card{
+.pillars-card {
   padding: 20px;
   border-radius: 24px;
   background-color: #ffffff;
-
 }
-
 /* The vision of future */
-.vision{
+.vision {
   margin-top: 80px;
 }
-
-.vision-cards{
+.vision-cards {
   margin-top: 30px;
   gap: 24px;
 }
-
-.vision-cards img{
+.vision-cards img {
   height: 64px;
   width: 66px;
 }
-
-.vision-cards h3{
+.vision-cards h3 {
   margin-top: 20px;
   margin-bottom: 12px;
 }
-
-.vision-card{
+.vision-card {
   padding: 20px;
   border-radius: 24px;
   background-color: #ffffff;
 }
-
-.vision button{
+.vision button {
   margin-top: 30px;
 }
-
 /* Dr. Muhammad Yunus */
 .yunus {
   margin-top: 32px;
@@ -170,22 +154,19 @@ height: auto;
   background-repeat: no-repeat;
   background-size: 64px;
   background-position: left 24px top 20px;
-  margin-bottom: ;
+  margin-bottom:;
 }
-
-.yunus h3{
+.yunus h3 {
   font-size: 18px;
   margin-top: 12px;
   margin-bottom: 4px;
 }
 
-
 /* Your Opinion Matters */
-.Opinion-container{
+.Opinion-container {
   margin-top: 80px;
 }
-
-.Opinion-main{
+.Opinion-main {
   background-color: #ffffff;
   padding: 32px;
   margin-top: 24px;
@@ -193,28 +174,183 @@ height: auto;
   flex-direction: column;
   border-radius: 24px;
 }
-
-.first-line{
-  background-color: #C6E4D6;
+.first-line {
+  background-color: #c6e4d6;
   padding: 24px;
   border: 1px solid #cac7c7;
   border-radius: 10px 10px 0 0;
 }
-
-.second{
+.second {
   background-color: transparent;
   padding: 24px;
   border: 1px solid #cac7c7;
   border-top: none;
 }
-
-.fourth{
-  border-radius:0 0 10px 10px;
+.fourth {
+  border-radius: 0 0 10px 10px;
 }
-.opinion-btn button{
+.opinion-btn button {
   border: 0.01px solid gray;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
 }
 
+/* Recemt mews */
+.recent-news-section {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  margin-top: 80px;
+}
+/* Section Header Styles */
+.section-header {
+  margin-bottom: 40px;
+}
+
+/* News Card Styles */
+.news-card {
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+/* Image Side */
+.news-image {
+  flex: 0 0 40%; 
+}
+.news-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+/* Content Side */
+.news-content {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.news-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+.news-source {
+  margin-bottom: 12px;
+}
+.source-logo {
+  height: 40px; 
+  width: auto;
+  display: block;
+}
+.news-meta {
+  margin-bottom: 20px;
+}
+.news-excerpt {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.read-more-btn {
+  background-color: #006a50; /* আপনার গ্লোবাল বাটনের কালার */
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.read-more-btn:hover {
+  background-color: #00503d;
+}
+
+
+/* Donate Today */
+.Donate-container {
+  margin-top: 80px;
+  text-align: center;
+}
+.Donate-container p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.Donate-cart-box {
+  gap: 24px;
+  margin-top: 32px;
+}
+.donate-cart {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-bottom: 32px;
+}
+.donate-cart h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.input {
+  text-align: center;
+  padding: 30px;
+  width: 95%;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 32px;
+}
+.donet-button {
+  background-color: #006a50;
+  margin-bottom: 80px;
+}
+
+/* Subscribe Newsletter */
+.Newsletter {
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 80px;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+.Newsletter p {
+  width: 60%;
+  margin: 16px auto 24px auto;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.input-box button {
+  background-color: #006a50;
+  border-radius: 0 8px 8px 0;
+}
+
+.subscribe-input {
+  padding: 14px;
+  width: 50%;
+  border-radius: 8px 0 0 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+.footer-icon {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  cursor: pointer;
+}
