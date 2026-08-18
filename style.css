@@ -295,6 +295,10 @@ nav {
   border: 1px solid gainsboro;
   margin-bottom: 32px;
 }
+.Donate-cart-box :hover{
+background-color: #C6E4D6;
+transition: 0.5s;
+}
 .donate-cart h3 {
   font-size: 40px;
   font-weight: bold;
